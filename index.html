@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library 📚</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Library App</h1>
+    <div class="btncontainer">
+        <button id="popup">New Book!</button>
+    </div>
+    <div id="form" >
+        <form id="bookForm" onsubmit="return false" autocomplete="off">
+            <label for="bookTitle">Title</label><br>
+            <input type="text" id="title"><br>
+            <label for="bookAuthor">Author</label><br>
+            <input type="text" id="author"><br>
+            <label for="bookPages">Pages</label><br>
+            <input type="number" id="pages"><br>
+            <label for="hasRead">Read?</label><br>
+            <input type="radio" id="yesread" value="Read" name="isItRead">
+            <label for="yesread">Yes!</label><br>
+            <input type="radio" id="noread" value="Not Read" name="isItRead">
+            <label for="noread">No!</label><br>
+            <input type="submit" value="Add Book!" id="submitBtn">
+
+        </form>
+    </div>
+    <div id="library">
+        
+    </div>
+
+
+
+
+
+
+  <script src="script.js"></script>  
+</body>
+</html>
